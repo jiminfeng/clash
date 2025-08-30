@@ -1,6 +1,6 @@
 config config_subscribe
 	option enabled '1'
-	option name '香港-自动'
+	option name 'ali-hk-自动'
 	option address '【https://suo.yt/ucy6CN4】'
 	option sub_convert '1'
 	option template '0'
@@ -16,7 +16,7 @@ config config_subscribe
 
 config config_subscribe
 	option enabled '1'
-	option name '美国-自动'
+	option name 'racknerd-自动'
 	option address '【https://suo.yt/kbiLC89】'
 	option sub_convert '1'
 	option template '0'
