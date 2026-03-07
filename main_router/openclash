@@ -154,96 +154,12 @@ config dns_servers
 	option type 'https'
 	option ip 'dns.alidns.com/dns-query'
 	option group 'nameserver'
-	option enabled '0'
+	option enabled '1'
 
 config dns_servers
-	option enabled '0'
+	option enabled '1'
 	option group 'fallback'
-	option ip '9.9.9.9'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '149.112.112.112'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2620:fe::fe'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2620:fe::9'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'nameserver'
-	option ip '8.8.8.8'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'nameserver'
-	option ip '8.8.4.4'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2001:4860:4860::8888'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2001:4860:4860::8844'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2001:da8::666'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dns.quad9.net'
-	option type 'tls'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dns.google'
-	option type 'tls'
-
-config dns_servers
-	option enabled '0'
-	option group 'nameserver'
-	option ip '1.1.1.1'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'jp.tiar.app'
-	option type 'tls'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dot.tiar.app'
-	option type 'tls'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dns.quad9.net/dns-query'
+	option ip 'dns.google/dns-query'
 	option type 'https'
 
 config dns_servers
