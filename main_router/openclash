@@ -3,8 +3,8 @@ config config_subscribe
 	option name '火烧云-自动'
 	option address '【订阅地址复制并覆盖这里】'
 	option sub_convert '1'
-	option template '0'
-	option custom_template_url 'https://raw.githubusercontent.com/jiminfeng/clash/main/Clash-LIAN.ini'
+	option template '1'
+	option custom_template_url 'https://raw.githubusercontent.com/jiminfeng/clash/main/Clash-HK-US-JP.ini'
 	option emoji 'false'
 	option udp 'true'
 	option skip_cert_verify 'false'
@@ -12,7 +12,7 @@ config config_subscribe
 	option node_type 'false'
 	option rule_provider 'false'
 	option sub_ua 'clash.meta'
-	option convert_address 'https://api.wcc.best/sub'
+	option convert_address 'http://127.0.0.1:25500'
 
 config dns_servers
 	option type 'udp'
